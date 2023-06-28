@@ -1,0 +1,107 @@
+
+body{
+    /* display: flex; */
+    color: white;
+    /* justify-content: center; */
+    background-color: #181818;
+}
+
+.grid{
+    display: grid;
+    /* grid-template-columns: 100%;  */
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-left:0px;
+}
+
+
+.grid div{
+    /* background: #02c7f8; */
+    padding: 0.1em;
+    margin: 6px;
+}
+
+.grid div:hover{
+    border: 1px solid #494949;
+}
+
+.botones{
+    margin: 10px;
+    display: center;
+    background-color: #181818;
+    border-radius: 70px 70px 70px 70px;;
+    height: 40px;
+    font-size: 16px;
+    border-color: white;
+    color: white;
+}
+
+#btntodos, #btnmusica{
+    width: 89px;
+}
+
+#btnprogramacion, #btndiseño{
+    width: 150px;
+}
+
+.botones:hover{
+    background-color: white;
+    color: black;
+}
+
+.search{
+    height:42px;
+    padding: 5px;
+}
+.search input{
+    height: 40px;
+    width: 568px;
+    background-color: #181818;
+    border-color: #333333;
+}
+
+.search button{
+    margin-top: auto;
+    height: 48px;
+    background-color: #181818;
+    border: none;
+}
+#btnagregar{
+    font-size: 20px;
+    color: #4e4e4e;
+    background-color: #181818;
+    margin-left: 50px;
+    width: 50px;
+}
+
+a{
+    font-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.iconos{
+    max-width: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    margin-top: -20px;
+}
+
+h2{
+    text-align: left;
+    max-width: 90%;
+    margin-top: -5px;
+}
+h6{
+    margin-top: 0px;
+}
+
+.tablacontent{
+    max-width: 300px;
+    padding: 0%;
+    margin: 0%;
+    /* margin-left: -80px; */
+}
+
+
